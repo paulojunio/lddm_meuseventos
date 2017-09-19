@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Eventos</string>
+    <string name="nomeDoEvento">Nome do Evento</string>
+    <string name="registerEvent">Registrar evento</string>
+    <string name="dataDoEventoIni">Data de inicio</string>
+    <string name="horarioDoEventoIni">Horario de inicio</string>
+    <string name="dataDoEventoFin">Data de termino</string>
+    <string name="horarioDoEventoFin">Horario de termino</string>
+    <string name="nomeDoOrga">Nome do Organizador</string>
+    <string name="emailDoOrga">Email do Organizador</string>
+    <string name="telefoneDoOrga">Telefone do Organizador</string>
+    <string name="criarEvento">Criar Evento</string>
+    <string name="action_add">Add event</string>
+    <string name="data">Data:</string>
+    <string name="listaDePartipantes">Lista de participantes</string>
+    <string name="emailDoContato">Email do contato</string>
+    <string name="teleDoContato">Telefone do contato</string>
+    <string name="nomeDoContato">Nome do Contato</string>
+    <string name="adicionarContato">AdicionarContato</string>
+    <string name="registrarPessoa">Registrar contato</string>
+</resources>
+

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.pucminas.pjrrodriguessga.meuseventos.showEvents"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    >
+
+    <TextView
+        android:paddingTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nomeDoOrga"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.SearchResult.Title"
+        />
+    <TextView
+        android:paddingTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nomeDoOrga"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+        />
+
+    <TextView
+        android:paddingTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/telefoneDoOrga"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.SearchResult.Title"
+        />
+    <TextView
+        android:paddingTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/teleDoOrga"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+        />
+
+    <TextView
+        android:paddingTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dataDoEventoIni"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.SearchResult.Title"
+        />
+    <TextView
+        android:paddingTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dataDeInicio"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+        />
+
+    <TextView
+        android:paddingTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/horarioDoEventoIni"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.SearchResult.Title"
+        />
+    <TextView
+        android:paddingTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/horarioDeInicio"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+        />
+
+    <TextView
+        android:paddingTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/listaDePartipantes"
+        android:layout_gravity="center"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.SearchResult.Title"
+        />
+
+
+    <ListView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/listaDeContatos"
+        >
+
+    </ListView>
+
+</android.widget.LinearLayout>
